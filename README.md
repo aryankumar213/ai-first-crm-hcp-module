@@ -113,26 +113,3 @@ The frontend web app will run at **`http://localhost:5173/`**. Open this URL in 
 
 ---
 
-## How to Submit to GitHub
-
-Since git is configured locally, you can push the codebase directly to your own GitHub repository:
-
-1. Log in to your GitHub account and create a new, empty repository named `hcp-crm-module`.
-2. Open a terminal in the project root directory (`hcp-crm-module/`) and run the following commands:
-   ```bash
-   # Initialize git
-   git init
-
-   # Add all files to staging (database files and .env are ignored)
-   git add .
-
-   # Commit files
-   git commit -m "Initial commit: AI-First CRM HCP Module"
-
-   # Link your repository (replace with your repository URL)
-   git remote add origin https://github.com/YOUR_USERNAME/hcp-crm-module.git
-   git branch -M main
-
-   # Push to GitHub
-   git push -u origin main
-   ```
