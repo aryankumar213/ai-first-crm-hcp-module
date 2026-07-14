@@ -1,0 +1,26 @@
+# Dependencies
+backend/venv/
+frontend/node_modules/
+
+# Local databases
+backend/crm.db
+
+# Secrets & Environment variables
+backend/.env
+
+# Python build & cache files
+backend/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# React build outputs
+frontend/dist/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
